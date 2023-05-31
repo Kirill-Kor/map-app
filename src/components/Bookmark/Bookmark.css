@@ -1,0 +1,49 @@
+.bookmarks__item {
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    gap: 10px;
+}
+
+.bookmarks__name {
+    display: block;
+    width: 150px;
+    margin: 0;
+    padding: 5px 0;
+    transition: .2s ease-in-out;
+    background-color: inherit;
+    border: 0;
+    outline: 0;
+    font-size: 14px;
+}
+
+
+.bookmarks__name:hover {
+    cursor: pointer;
+    opacity: .7;
+}
+
+.bookmarks__name_edit {
+    border-bottom: 1px solid #000;
+}
+
+.bookmarks__name_edit:hover {
+    opacity: 1;
+    cursor: text;
+}
+
+.bookmarks__delete-button {
+    width: 15px;
+    height: 15px;
+    background-image: url(../../icons/delete.svg);
+    border: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: inherit;
+}
+
+.bookmarks__delete-button:hover {
+    cursor: pointer;
+    opacity: .7;
+}
